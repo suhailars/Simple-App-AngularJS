@@ -1,0 +1,95 @@
+/* line 5, layout.css.scss */
+html {
+  height: 100%;
+  }
+
+/* line 10, layout.css.scss */
+body {
+  height: 100%;
+  width: 100%;
+  background: url('../img/linen-lighter.png');
+  -webkit-font-smoothing: antialiased; }
+.main-titling {
+  color: white;
+  font-family: "D3RoadsterismI";
+  text-shadow: black 2px 2px 3px;
+  margin-top: 0px;
+  font-size: 30px;
+}
+nav#primary {
+  background: url('../img/linen-gray.png');
+  float: left;
+  height: 100%;
+  width: 1300px; }
+  .driver-status {
+    color: white;
+    text-align: left;
+    padding: 10px 0px 10px 15px;
+    font-size: 13px;
+    line-height: 22px;
+  }
+
+ .driver-status strong {
+    width: 75px;
+    display: inline-block;
+  }
+
+.driver-status a {
+    color: white;
+    display: inline-block;
+    position: relative;
+  }
+
+.driver-status a:hover {
+    opacity: 0.7;
+    display: inline-block;
+  }
+
+.driver-status img {
+    display: inline-block;
+    position: absolute;
+    top: 5px;
+    left: 80px;
+    height: 13px;
+    width: 13px;
+  }
+
+.footer {
+  padding: 5px 10px;
+  margin: auto;
+  background: rgba(0, 0, 0, 0.2);
+  color: white;
+  text-shadow: rgba(0, 0, 0, 0.4) 0 1px 0;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+  border-radius: 20px;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.2) 0 1px 2px inset, rgba(255, 255, 255, 0.4) 0 1px 0;
+  -moz-box-shadow: rgba(0, 0, 0, 0.2) 0 1px 2px inset, rgba(255, 255, 255, 0.4) 0 1px 0;
+  box-shadow: rgba(0, 0, 0, 0.2) 0 1px 2px inset, rgba(255, 255, 255, 0.4) 0 1px 0;
+  max-width: 270px;
+  margin-bottom: 40px;
+  line-height: 25px;
+  background: rgba(0, 0, 0, 0.1);
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  -ms-border-radius: 6px;
+  -o-border-radius: 6px;
+  border-radius: 6px;
+  text-align: center;
+  color: white;
+  text-shadow: 0 1px rgba(0, 0, 0, 0.8); }
+  /* line 212, layout.css.scss */
+  .footer a {
+    color: #ddd; }
+    /* line 214, layout.css.scss */
+    .footer a:hover {
+      color: #ccc; }
+
+.cl {
+  clear: both;
+}
+
+
+
